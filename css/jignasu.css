@@ -140,10 +140,14 @@
 }
 
 
-
+@media screen and (min-width: 993px) {
+    .itinerary-section {
+        display: flex;
+        align-items: flex-start;
+    }
+}
 .itinerary-section {
-    display: flex;
-    align-items: flex-start;
+    position: relative;
 }
 .itinerary-pageContent .stikcy-tab {
     position: sticky;
@@ -394,4 +398,10 @@ img.img-popover {
 
 .title.mb-0 {
     margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+    .itinerary-left-sticky {
+        position: absolute;
+    }
 }
